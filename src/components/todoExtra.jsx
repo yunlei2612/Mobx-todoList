@@ -5,7 +5,7 @@ import { inject, observer } from "mobx-react";
 @observer
 class TodoExtra extends Component {
 	render() {
-		const { unfinishedTodo, filterTodos, unEatUpsWeight, eatUpCount, eatUpWeight } = this.props.todo;
+		const { filterTodos, unEatUpsWeight, eatUpCount, eatUpWeight } = this.props.todo;
 		return (
 			<div>
 				<footer className="footer">
